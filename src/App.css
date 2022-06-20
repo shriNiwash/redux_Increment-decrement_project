@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  text-align: center;
+  justify-content: center;
+  padding: 302px;
+}
+
+#number{
+  padding: 14px;
+  FONT-WEIGHT: 100;
+  justify-content: center;
+  border: 3px solid;
+  border-radius: 18px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.increment{
+  font-size: 109px;
+  cursor: pointer;
+}
+.decrement{
+  font-size: 109px;
+  cursor: pointer;
+}
+
+.decrement:hover{
+  color: red;
+}
+
+.increment:hover{
+  color: rgb(25, 12, 203);
+}
